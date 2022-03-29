@@ -13,22 +13,18 @@ int main() {
       n += 2 * r;
     }
     if (d % 2 == 0) {
-      while (x < d) {
-        n++;
-        x++;
+      if (x < d) {
+        n += d - x;
       }
-      while (y < d) {
-        n--;
-        y++;
+      if (y < d) {
+        n -= d - y;
       }
     } else {
-      while (x < d) {
-        n--;
-        x++;
+      if (x < d) {
+        n -= d - x;
       }
-      while (y < d) {
-        n++;
-        y++;
+      if (y < d) {
+        n += d - y;
       }
     }
     cout << n << "\n";
