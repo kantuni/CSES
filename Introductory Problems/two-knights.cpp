@@ -16,9 +16,9 @@ long long solve(long long n) {
   if (n == 3) {
     return 28;
   }
-  // There are 3 pieces that attack only 2 points.
+  // There are 3 pieces that attack 2 points.
   long long s1 = 3 * (n * n - 1 - 2);
-  // There are 4 pieces that attack only 3 points.
+  // There are 4 pieces that attack 3 points.
   long long s2 = 4 * (n * n - 1 - 3);
   // There are (2 * n - 1 - 3 - 4) pieces that attack 4 points.
   long long s3 = (2 * n - 1 - 3 - 4) * (n * n - 1 - 4);
