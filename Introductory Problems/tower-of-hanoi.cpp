@@ -16,10 +16,10 @@ void solve(int n, int from, int aux, int to) {
 int main() {
   int n;
   cin >> n;
-  solve(n, 0, 1, 2);
+  solve(n, 1, 2, 3);
   cout << ans.size() << endl;
   for (auto [from, to]: ans) {
-    cout << from + 1 << " " << to + 1 << "\n";
+    cout << from << " " << to << "\n";
   }
   return 0;
 }
