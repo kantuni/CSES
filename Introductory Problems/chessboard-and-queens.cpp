@@ -5,34 +5,29 @@ const char FREE = '.', RESERVED = '*', QUEEN = 'Q';
 const int N = 8;
 char b[N][N];
 
-vector<int> rows(N), cols(N), mdiags(2 * N), sdiags(2 * N);
+map<int, int> cols, mdiags, sdiags;
 long long ans = 0;
 
-void backtrack(int n) {
+void backtrack(int n, int r) {
   if (n == 0) {
     ans++;
     return;
   }
-  for (int r = 0; r < N; r++) {
-    if (rows[r] == 1) {
+  for (int c = 0; c < N; c++) {
+    if (cols[c] == 1) {
       continue;
     }
-    for (int c = 0; c < N; c++) {
-      if (cols[c] == 1) {
-        continue;
-      }
-      bool c1 = b[r][c] == FREE;
-      // 45º diagonals
-      bool c2 = mdiags[r + c] == 0;
-      // 135º diagonals
-      bool c3 = sdiags[r - c + N] == 0;
-      if (c1 and c2 and c3) {
-        b[r][c] = QUEEN;
-        rows[r] = cols[c] = mdiags[r + c] = sdiags[r - c + N] = 1;
-        backtrack(n - 1);
-        b[r][c] = FREE;
-        rows[r] = cols[c] = mdiags[r + c] = sdiags[r - c + N] = 0;
-      }
+    bool c1 = b[r][c] == FREE;
+    // 45º diagonals
+    bool c2 = mdiags[r + c] == 0;
+    // 135º diagonals
+    bool c3 = sdiags[r - c] == 0;
+    if (c1 and c2 and c3) {
+      b[r][c] = QUEEN;
+      cols[c] = mdiags[r + c] = sdiags[r - c] = 1;
+      backtrack(n - 1, r + 1);
+      b[r][c] = FREE;
+      cols[c] = mdiags[r + c] = sdiags[r - c] = 0;
     }
   }
 }
@@ -43,8 +38,7 @@ int main() {
       cin >> b[r][c];
     }
   }
-  backtrack(N);
-  // 8! = 40320
-  cout << ans / 40320 << "\n";
+  backtrack(N, 0);
+  cout << ans << "\n";
   return 0;
 }
