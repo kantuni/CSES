@@ -24,8 +24,8 @@ int solve(long long k) {
     d++;
   }
   long long f = (k - cur) / d;
-  long long exact = cur + f * d;
-  long long offset = k - exact;
+  long long actual = cur + f * d;
+  long long offset = k - actual;
   string num = to_string(pow10(d - 1) + f);
   return num[offset] - '0';
 }
