@@ -1,2 +1,6 @@
-# CSES
-Solutions to CSES Problems
+# Solutions to CSES Problems
+
+## Introductory Problems
+
+
+Problems solved: 0
