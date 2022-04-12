@@ -9,7 +9,7 @@ int ans = 0;
 
 void backtrack(int r, int c, int i) {
   // Reached the end of the command
-  if (i == s.size()) {
+  if (i == N * N - 1) {
     // The path ended on the target location
     if (r == TR and c == TC) {
       ans++;
@@ -27,7 +27,10 @@ void backtrack(int r, int c, int i) {
   // If at any moment we can only go left or right,
   // the path splits, i.e. we can't reach all the cells, and thus
   // that path is invalid.
-  if (canGoLeft and canGoRight and !canGoUp and !canGoDown) {
+  if (!canGoUp and !canGoDown and canGoLeft and canGoRight) {
+    return;
+  }
+  if (canGoUp and canGoDown and !canGoLeft and !canGoRight) {
     return;
   }
   if (s[i] == 'U') {
@@ -37,6 +40,7 @@ void backtrack(int r, int c, int i) {
     }
     color[r - 1][c] = 1;
     backtrack(r - 1, c, i + 1);
+    color[r - 1][c] = 0;
   } else if (s[i] == 'D') {
     // Must go down
     if (r + 1 == N or color[r + 1][c] == 1) {
@@ -44,6 +48,7 @@ void backtrack(int r, int c, int i) {
     }
     color[r + 1][c] = 1;
     backtrack(r + 1, c, i + 1);
+    color[r + 1][c] = 0;
   } else if (s[i] == 'L') {
     // Must go left
     if (c - 1 < 0 or color[r][c - 1] == 1) {
@@ -51,6 +56,7 @@ void backtrack(int r, int c, int i) {
     }
     color[r][c - 1] = 1;
     backtrack(r, c - 1, i + 1);
+    color[r][c - 1] = 0;
   } else if (s[i] == 'R') {
     // Must go right
     if (c + 1 == N or color[r][c + 1] == 1) {
@@ -58,6 +64,7 @@ void backtrack(int r, int c, int i) {
     }
     color[r][c + 1] = 1;
     backtrack(r, c + 1, i + 1);
+    color[r][c + 1] = 0;
   } else {
     if (canGoUp) {
       color[r - 1][c] = 1;
