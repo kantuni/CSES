@@ -27,10 +27,9 @@ void backtrack(int r, int c, int i) {
   // If at any moment we can only go left or right,
   // the path splits, i.e. we can't reach all the cells, and thus
   // that path is invalid.
-  if (!canGoUp and !canGoDown and canGoLeft and canGoRight) {
-    return;
-  }
-  if (canGoUp and canGoDown and !canGoLeft and !canGoRight) {
+  bool c1 = canGoUp and canGoDown and !canGoLeft and !canGoRight;
+  bool c2 = !canGoUp and !canGoDown and canGoLeft and canGoRight;
+  if (c1 or c2) {
     return;
   }
   if (s[i] == 'U') {
