@@ -41,6 +41,24 @@
 - Gray Code
 [[source]](https://cses.fi/problemset/task/2205) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/gray-code.cpp)
+- Tower of Hanoi
+[[source]](https://cses.fi/problemset/task/2165) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/tower-of-hanoi.cpp)
+- Creating Strings
+[[source]](https://cses.fi/problemset/task/1622) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/creating-strings.cpp)
+- Apple Division
+[[source]](https://cses.fi/problemset/task/1623) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/apple-division.cpp)
+- Chessboard and Queens
+[[source]](https://cses.fi/problemset/task/1624) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/chessboard-and-queens.cpp)
+- Digit Queries
+[[source]](https://cses.fi/problemset/task/2431) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/digit-queries.cpp)
+- Grid Paths
+[[source]](https://cses.fi/problemset/task/1625) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/grid-paths.cpp)
 
 
-Problems solved: 13
+Problems solved: **19**
