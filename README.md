@@ -60,7 +60,6 @@
 [[source]](https://cses.fi/problemset/task/1625) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/grid-paths.cpp)
 
-
 ## Sorting and Searching
 
 - Distinct Numbers
