@@ -71,5 +71,8 @@
 - Ferris Wheel
 [[source]](https://cses.fi/problemset/task/1090) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/ferris-wheel.cpp)
+- Concert Tickets
+[[source]](https://cses.fi/problemset/task/1091) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/concert-tickets.cpp)
 
-Problems solved: **22**
+Problems solved: **23**
