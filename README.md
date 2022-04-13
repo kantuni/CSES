@@ -65,6 +65,8 @@
 - Distinct Numbers
 [[source]](https://cses.fi/problemset/task/1621) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/distinct-numbers.cpp)
+- Apartments
+[[source]](https://cses.fi/problemset/task/1084) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/apartments.cpp)
 
-
-Problems solved: **20**
+Problems solved: **21**
