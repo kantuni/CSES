@@ -61,4 +61,11 @@
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/grid-paths.cpp)
 
 
-Problems solved: **19**
+## Sorting and Searching
+
+- Distinct Numbers
+[[source]](https://cses.fi/problemset/task/1621) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/distinct-numbers.cpp)
+
+
+Problems solved: **20**
