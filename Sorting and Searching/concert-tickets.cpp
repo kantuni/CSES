@@ -15,7 +15,7 @@ int main() {
     cin >> t[i];
   }
   for (int i = 0; i < m; i++) {
-    auto nxt = upper_bound(h.begin(), h.end(), t[i]);
+    auto nxt = h.upper_bound(t[i]);
     if (nxt == h.begin()) {
       cout << -1 << "\n";
       continue;
