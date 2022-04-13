@@ -68,5 +68,8 @@
 - Apartments
 [[source]](https://cses.fi/problemset/task/1084) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/apartments.cpp)
+- Ferris Wheel
+[[source]](https://cses.fi/problemset/task/1090) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/ferris-wheel.cpp)
 
-Problems solved: **21**
+Problems solved: **22**
