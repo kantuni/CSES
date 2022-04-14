@@ -88,4 +88,4 @@
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/maximum-subarray-sum.cpp)
 
 
-Problems solved: **26**
+Problems solved: **27**
