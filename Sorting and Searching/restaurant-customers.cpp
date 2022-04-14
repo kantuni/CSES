@@ -13,8 +13,8 @@ int main() {
   }
   sort(events.begin(), events.end());
   int ans = 0, cur = 0;
-  for (auto [time, type]: events) {
-    cur += type;
+  for (auto [t, delta]: events) {
+    cur += delta;
     ans = max(ans, cur);
   }
   cout << ans << "\n";
