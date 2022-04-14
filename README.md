@@ -86,6 +86,9 @@
 - Maximum Subarray Sum
 [[source]](https://cses.fi/problemset/task/1643) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/maximum-subarray-sum.cpp)
+- Stick Lengths
+[[source]](https://cses.fi/problemset/task/1074) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/stick-lengths.cpp)
 
 
-Problems solved: **27**
+Problems solved: **28**
