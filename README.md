@@ -83,6 +83,9 @@
 - Sum of Two Values
 [[source]](https://cses.fi/problemset/task/1640) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-two-values.cpp)
+- Maximum Subarray Sum
+[[source]](https://cses.fi/problemset/task/1643) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/maximum-subarray-sum.cpp)
 
 
-Problems solved: **25**
+Problems solved: **26**
