@@ -74,5 +74,8 @@
 - Concert Tickets
 [[source]](https://cses.fi/problemset/task/1091) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/concert-tickets.cpp)
+- Restaurant Customers
+[[source]](https://cses.fi/problemset/task/1619) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/restaurant-customers.cpp)
 
 Problems solved: **23**
