@@ -80,5 +80,9 @@
 - Movie Festival
 [[source]](https://cses.fi/problemset/task/1629) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/movie-festival.cpp)
+- Sum of Two Values
+[[source]](https://cses.fi/problemset/task/1640) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-two-values.cpp)
 
-Problems solved: **24**
+
+Problems solved: **25**
