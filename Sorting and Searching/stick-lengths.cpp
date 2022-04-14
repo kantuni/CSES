@@ -17,8 +17,8 @@ int main() {
     cin >> p[i];
   }
   sort(p.begin(), p.end());
-  long long mid = p[p.size() / 2];
-  long long ans = cost(p, mid);
+  long long median = p[p.size() / 2];
+  long long ans = cost(p, median);
   cout << ans << "\n";
   return 0;
 }
