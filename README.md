@@ -77,5 +77,8 @@
 - Restaurant Customers
 [[source]](https://cses.fi/problemset/task/1619) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/restaurant-customers.cpp)
+- Movie Festival
+[[source]](https://cses.fi/problemset/task/1629) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/movie-festival.cpp)
 
-Problems solved: **23**
+Problems solved: **24**
