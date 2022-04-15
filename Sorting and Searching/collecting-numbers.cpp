@@ -4,15 +4,14 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  vector<int> a(n);
-  map<int, int> memo;
+  vector<int> a(n), pos(n);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
-    memo[a[i]] = i;
+    pos[a[i] - 1] = i;
   }
   int ans = 0;
-  for (int i = 1; i < n; i++) {
-    if (memo[i + 1] < memo[i]) {
+  for (int i = 0; i < n - 1; i++) {
+    if (pos[i + 1] < pos[i]) {
       ans++;
     }
   }
