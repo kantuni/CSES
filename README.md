@@ -89,6 +89,8 @@
 - Stick Lengths
 [[source]](https://cses.fi/problemset/task/1074) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/stick-lengths.cpp)
+- Missing Coin Sum
+[[source]](https://cses.fi/problemset/task/2183) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/missing-coin-sum.cpp)
 
-
-Problems solved: **28**
+Problems solved: **29**
