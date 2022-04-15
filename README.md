@@ -92,5 +92,8 @@
 - Missing Coin Sum
 [[source]](https://cses.fi/problemset/task/2183) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/missing-coin-sum.cpp)
+- Collecting Numbers
+[[source]](https://cses.fi/problemset/task/2216) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/collecting-numbers.cpp)
 
-Problems solved: **29**
+Problems solved: **30**
