@@ -98,5 +98,8 @@
 - Collecting Numbers II
 [[source]](https://cses.fi/problemset/task/2217) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/collecting-numbers-ii.cpp)
+- Playlist
+[[source]](https://cses.fi/problemset/task/1141) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/playlist.cpp)
 
-Problems solved: **31**
+Problems solved: **32**
