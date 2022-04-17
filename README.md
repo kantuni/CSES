@@ -95,5 +95,8 @@
 - Collecting Numbers
 [[source]](https://cses.fi/problemset/task/2216) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/collecting-numbers.cpp)
+- Collecting Numbers II
+[[source]](https://cses.fi/problemset/task/2217) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/collecting-numbers-ii.cpp)
 
-Problems solved: **30**
+Problems solved: **31**
