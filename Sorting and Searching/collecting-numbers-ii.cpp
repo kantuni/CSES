@@ -20,9 +20,6 @@ int main() {
     int i, j;
     cin >> i >> j;
     i--, j--;
-    if (i > j) {
-      swap(i, j);
-    }
     set<pair<int, int>> s;
     if (a[i] != 1) {
       s.insert({a[i] - 1, a[i]});
