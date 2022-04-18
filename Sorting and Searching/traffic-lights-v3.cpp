@@ -17,8 +17,6 @@ int main() {
   }
   vector<int> ans = {best};
   for (int i = n - 1; i > -1; i--) {
-    // lower_bound will always point to p[i],
-    // hence prev will point to the previous element.
     auto before = prev(s.lower_bound(p[i]));
     auto after = s.upper_bound(p[i]);
     best = max(best, *after - *before);
@@ -30,4 +28,4 @@ int main() {
   }
   cout << "\n";
   return 0;
-
+}
