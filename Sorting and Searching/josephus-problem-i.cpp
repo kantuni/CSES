@@ -19,13 +19,13 @@ int main() {
       }
     }
     cout << *it << " ";
-    auto rmit = it;
+    auto tmp = it;
     if (next(it) == s.end()) {
       it = s.begin();
     } else {
       it++;
     }
-    s.erase(rmit);
+    s.erase(tmp);
   }
   cout << "\n";
   return 0;
