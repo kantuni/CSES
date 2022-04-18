@@ -101,5 +101,8 @@
 - Playlist
 [[source]](https://cses.fi/problemset/task/1141) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/playlist.cpp)
+- Towers
+[[source]](https://cses.fi/problemset/task/1073) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/towers.cpp)
 
-Problems solved: **32**
+Problems solved: **33**
