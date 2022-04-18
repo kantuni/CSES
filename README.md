@@ -107,5 +107,8 @@
 - Traffic Lights
 [[source]](https://cses.fi/problemset/task/1163) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/traffic-lights.cpp)
+- Josephus Problem I
+[[source]](https://cses.fi/problemset/task/2162) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/josephus-problem-i.cpp)
 
-Problems solved: **34**
+Problems solved: **35**
