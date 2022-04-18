@@ -9,9 +9,9 @@ int main() {
     s.insert(i);
   }
   auto it = s.begin();
-  int k = 2;
+  int k = 1;
   while (s.size() > 0) {
-    for (int i = 0; i < k - 1; i++) {
+    for (int i = 0; i < k; i++) {
       if (next(it) == s.end()) {
         it = s.begin();
       } else {
