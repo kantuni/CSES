@@ -104,5 +104,8 @@
 - Towers
 [[source]](https://cses.fi/problemset/task/1073) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/towers.cpp)
+- Traffic Lights
+[[source]](https://cses.fi/problemset/task/1163) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/traffic-lights.cpp)
 
-Problems solved: **33**
+Problems solved: **34**
