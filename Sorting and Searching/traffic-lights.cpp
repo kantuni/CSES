@@ -10,13 +10,12 @@ int main() {
     cin >> p[i];
     s.insert(p[i]);
   }
-  vector<int> ans;
   vector<int> tmp(s.begin(), s.end());
   int best = 0;
   for (int i = 0; i < (int) tmp.size(); i++) {
     best = max(best, tmp[i + 1] - tmp[i]);
   }
-  ans.push_back(best);
+  vector<int> ans = {best};
   for (int i = n - 1; i > -1; i--) {
     auto before = prev(s.lower_bound(p[i]));
     auto after = s.upper_bound(p[i]);
