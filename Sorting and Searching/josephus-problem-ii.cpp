@@ -1,25 +1,20 @@
 #include <bits/stdc++.h>
-#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/rope>
 using namespace std;
-using namespace __gnu_pbds;
-
-template <typename T>
-using indexed_set = tree<T, null_type, less<T>, rb_tree_tag, 
-                         tree_order_statistics_node_update>;
+using namespace __gnu_cxx;
 
 int main() {
   int n, k;
   cin >> n >> k;
-  indexed_set<int> s;
+  rope<int> r;
   for (int i = 1; i <= n; i++) {
-    s.insert(i);
+    r.push_back(i);
   }
   int pos = 0;
-  while (s.size() > 0) {
-    pos = (pos + k) % s.size();
-    auto it = s.find_by_order(pos);
-    cout << *it << " ";
-    s.erase(it);
+  while (r.size() > 0) {
+    pos = (pos + k) % r.size();
+    cout << r.at(pos) << " ";
+    r.erase(pos, 1);
   }
   cout << "\n";
   return 0;
