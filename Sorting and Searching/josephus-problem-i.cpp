@@ -4,28 +4,25 @@ using namespace std;
 int main() {
   int n;
   cin >> n;
-  set<int> s;
+  list<int> nums;
   for (int i = 1; i <= n; i++) {
-    s.insert(i);
+    nums.push_back(i);
   }
-  auto it = s.begin();
-  int k = 1;
-  while (s.size() > 0) {
-    for (int i = 0; i < k; i++) {
-      if (next(it) == s.end()) {
-        it = s.begin();
-      } else {
-        it++;
-      }
-    }
-    cout << *it << " ";
-    auto tmp = it;
-    if (next(it) == s.end()) {
-      it = s.begin();
+  auto it = nums.begin();
+  while (nums.size() > 0) {
+    if (next(it) == nums.end()) {
+      it = nums.begin();
     } else {
       it++;
     }
-    s.erase(tmp);
+    cout << *it << " ";
+    auto tmp = it;
+    if (next(it) == nums.end()) {
+      it = nums.begin();
+    } else {
+      it++;
+    }
+    nums.erase(tmp);
   }
   cout << "\n";
   return 0;
