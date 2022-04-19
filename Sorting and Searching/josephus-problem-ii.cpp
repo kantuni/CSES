@@ -13,22 +13,12 @@ int main() {
   for (int i = 1; i <= n; i++) {
     s.insert(i);
   }
-  auto it = s.begin();
-  int offset = 0;
+  int pos = 0;
   while (s.size() > 0) {
-    offset = (offset + k) % s.size();
-    it = s.find_by_order(offset);
+    pos = (pos + k) % s.size();
+    auto it = s.find_by_order(pos);
     cout << *it << " ";
-    auto tmp = it;
-    if (next(it) == s.end()) {
-      it = s.begin();
-      offset = 0;
-    } else {
-      it++;
-      offset++;
-    }
-    offset = (offset - 1 + s.size()) % s.size();
-    s.erase(tmp);
+    s.erase(it);
   }
   cout << "\n";
   return 0;
