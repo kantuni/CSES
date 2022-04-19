@@ -110,5 +110,8 @@
 - Josephus Problem I
 [[source]](https://cses.fi/problemset/task/2162) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/josephus-problem-i.cpp)
+- Josephus Problem II
+[[source]](https://cses.fi/problemset/task/2163) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/josephus-problem-ii.cpp)
 
-Problems solved: **35**
+Problems solved: **36**
