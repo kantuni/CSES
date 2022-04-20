@@ -2,49 +2,53 @@
 using namespace std;
 
 // increasing second, decreasing first
-bool isdf(pair<int, int> a, pair<int, int> b) {
-  if (a.second == b.second) {
-    return a.first > b.first;
+bool isdf(tuple<int, int, int> a, tuple<int, int, int> b) {
+  auto [x1, y1, i] = a;
+  auto [x2, y2, j] = b;
+  if (y1 == y2) {
+    return x1 > x2;
   }
-  return a.second < b.second;
+  return y1 < y2;
 }
 
-void contains_range(vector<pair<int, int>> p) {
-  vector<pair<int, int>> ps(p);
+void contains_range(vector<tuple<int, int, int>>& p) {
+  vector<tuple<int, int, int>> ps(p);
   sort(ps.begin(), ps.end(), isdf);
-  map<pair<int, int>, int> memo;
   set<int> xs;
-  for (auto [x, y]: ps) {
+  vector<int> ans(p.size());
+  for (auto [x, y, i]: ps) {
     auto lower = xs.lower_bound(x);
-    memo[make_pair(x, y)] = lower != xs.end();
+    ans[i] = lower != xs.end();
     xs.insert(x);
   }
-  for (int i = 0; i < (int) p.size(); i++) {
-    cout << memo[p[i]] << " ";
+  for (auto [x, y, i]: p) {  
+    cout << ans[i] << " ";
   }
   cout << "\n";
 }
 
 // increasing first, decreasing second
-bool ifds(pair<int, int> a, pair<int, int> b) {
-  if (a.first == b.first) {
-    return a.second > b.second;
+bool ifds(tuple<int, int, int> a, tuple<int, int, int> b) {
+  auto [x1, y1, i] = a;
+  auto [x2, y2, j] = b;
+  if (x1 == x2) {
+    return y1 > y2;
   }
-  return a.first < b.first;
+  return x1 < x2;
 }
 
-void inside_range(vector<pair<int, int>> p) {
-  vector<pair<int, int>> ps(p);
+void inside_range(vector<tuple<int, int, int>>& p) {
+  vector<tuple<int, int, int>> ps(p);
   sort(ps.begin(), ps.end(), ifds);
-  map<pair<int, int>, int> memo;
   set<int> ys;
-  for (auto [x, y]: ps) {
+  vector<int> ans(p.size());
+  for (auto [x, y, i]: ps) {
     auto lower = ys.lower_bound(y);
-    memo[make_pair(x, y)] = lower != ys.end();
+    ans[i] = lower != ys.end();
     ys.insert(y);
   }
-  for (int i = 0; i < (int) p.size(); i++) {
-    cout << memo[p[i]] << " ";
+  for (auto [x, y, i]: p) {
+    cout << ans[i] << " ";
   }
   cout << "\n";
 }
@@ -52,11 +56,11 @@ void inside_range(vector<pair<int, int>> p) {
 int main() {
   int n;
   cin >> n;
-  vector<pair<int, int>> p;
+  vector<tuple<int, int, int>> p(n);
   for (int i = 0; i < n; i++) {
     int x, y;
     cin >> x >> y;
-    p.push_back({x, y});
+    p[i] = {x, y, i};
   }
   contains_range(p);
   inside_range(p);
