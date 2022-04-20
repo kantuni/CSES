@@ -116,5 +116,8 @@
 - Nested Ranges Check
 [[source]](https://cses.fi/problemset/task/2168) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nested-ranges-check.cpp)
+- Nested Ranges Count
+[[source]](https://cses.fi/problemset/task/2169) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nested-ranges-count.cpp)
 
-Problems solved: **37**
+Problems solved: **38**
