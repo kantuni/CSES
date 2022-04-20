@@ -113,5 +113,8 @@
 - Josephus Problem II
 [[source]](https://cses.fi/problemset/task/2163) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/josephus-problem-ii.cpp)
+- Nested Ranges Check
+[[source]](https://cses.fi/problemset/task/2168) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nested-ranges-check.cpp)
 
-Problems solved: **36**
+Problems solved: **37**
