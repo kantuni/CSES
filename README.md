@@ -119,5 +119,8 @@
 - Nested Ranges Count
 [[source]](https://cses.fi/problemset/task/2169) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nested-ranges-count.cpp)
+- Room Allocation
+[[source]](https://cses.fi/problemset/task/1164) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/room-allocation.cpp)
 
-Problems solved: **38**
+Problems solved: **39**
