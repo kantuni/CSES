@@ -122,5 +122,8 @@
 - Room Allocation
 [[source]](https://cses.fi/problemset/task/1164) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/room-allocation.cpp)
+- Factory Machines
+[[source]](https://cses.fi/problemset/task/1620) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/factory-machines.cpp)
 
-Problems solved: **39**
+Problems solved: **40**
