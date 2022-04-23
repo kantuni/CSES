@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Calculates the maximum number of products made in `s` seconds.
+// Calculates the maximum number of products made in s seconds.
 long long makes(vector<long long>& t, long long s) {
   long long ans = 0;
   for (auto ti: t) {
