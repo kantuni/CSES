@@ -21,9 +21,9 @@ int main() {
   vector<int> ans(n);
   int nxt = 2;
   for (auto [l, r, i]: events) {
-    auto [mr, k] = pq.top();
+    auto [mxr, k] = pq.top();
     int key = -1;
-    if (l > mr) {
+    if (l > mxr) {
       key = k;
       pq.pop();
     } else {
