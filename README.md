@@ -125,5 +125,8 @@
 - Factory Machines
 [[source]](https://cses.fi/problemset/task/1620) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/factory-machines.cpp)
+- Tasks and Deadlines
+[[source]](https://cses.fi/problemset/task/1630) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/tasks-and-deadlines.cpp)
 
-Problems solved: **40**
+Problems solved: **41**
