@@ -128,5 +128,8 @@
 - Tasks and Deadlines
 [[source]](https://cses.fi/problemset/task/1630) 
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/tasks-and-deadlines.cpp)
+- Reading Books
+[[source]](https://cses.fi/problemset/task/1631) 
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/reading-books.cpp)
 
-Problems solved: **41**
+Problems solved: **42**
