@@ -12,8 +12,8 @@ int main() {
   }
   sort(a.begin(), a.end());
   bool found = false;
-  for (int i = 0; i < n - 2; i++) {
-    for (int j = i + 1; j < n - 1; j++) {
+  for (int i = 0; !found and i < n - 2; i++) {
+    for (int j = i + 1; !found and j < n - 1; j++) {
       int target = x - a[i].first - a[j].first;
       pair<int, int> p = {target, INT_MIN};
       auto lower = lower_bound(a.begin() + j + 1, a.end(), p);
