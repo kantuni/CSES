@@ -21,8 +21,8 @@ int main() {
     }
   }
   long long ans = a + b;
-  // If a read all the books except the last one,
-  // and still has to wait for b to finish.
+  // If A read all the books except the last one,
+  // and still has to wait for B to finish.
   if (a < b and j == n - 2) {
     long long wait = abs(b - a);
     ans += wait;
