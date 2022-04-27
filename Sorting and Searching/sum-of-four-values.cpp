@@ -21,7 +21,7 @@ int main() {
     return 0;
   }
   a.push_back({0, -1});
-  map<long long, int> nxt;
+  unordered_map<long long, int> nxt;
   for (int i = 0; i < n; i++) {
     if (a[i].first != a[i + 1].first) {
       nxt[a[i].first] = i + 1;
