@@ -6,18 +6,20 @@ int main() {
   long long x;
   cin >> n >> x;
   vector<pair<long long, int>> a(n);
-  long long sum = 0;
   for (int i = 0; i < n; i++) {
     int num;
     cin >> num;
     a[i] = {num, i};
-    sum += num;
+  }
+  sort(a.begin(), a.end());
+  long long sum = 0;
+  for (int i = n - 4; i < n; i++) {
+    sum += a[i].first;
   }
   if (sum < x) {
     cout << "IMPOSSIBLE" << "\n";
     return 0;
   }
-  sort(a.begin(), a.end());
   a.push_back({0, -1});
   map<long long, int> nxt;
   for (int i = 0; i < n; i++) {
