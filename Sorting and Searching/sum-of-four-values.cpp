@@ -12,6 +12,7 @@ int main() {
     a[i] = {num, i};
   }
   sort(a.begin(), a.end());
+  // Make sure that the min sum of 4 values is not greater than x.
   long long min_sum = 0;
   for (int i = 0; i < 4; i++) {
     min_sum += a[i].first;
@@ -20,6 +21,7 @@ int main() {
     cout << "IMPOSSIBLE" << "\n";
     return 0;
   }
+  // Make sure that the max sum of 4 values is not less than x.
   long long max_sum = 0;
   for (int i = n - 4; i < n; i++) {
     max_sum += a[i].first;
@@ -28,6 +30,10 @@ int main() {
     cout << "IMPOSSIBLE" << "\n";
     return 0;
   }
+  // For each number calculate the first position of the number
+  // that comes right after it (skip duplicates).
+  // HACK: add a stopper value so that if the last value of the array
+  // is not unique the `nxt` value will be `n` (end of the array).
   a.push_back({0, -1});
   map<long long, int> nxt;
   for (int i = 0; i < n; i++) {
@@ -35,6 +41,8 @@ int main() {
       nxt[a[i].first] = i + 1;
     }
   }
+  // Remove the stopper value. Otherwise, lower bound will be computed
+  // incorrectly.
   a.pop_back();
   bool found = false;
   for (int i = 0; !found and i < n - 3; i++) {
