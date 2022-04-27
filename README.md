@@ -2,139 +2,139 @@
 
 ## Introductory Problems
 
-- Weird Algorithm
+1. Weird Algorithm
 [[source]](https://cses.fi/problemset/task/1068)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/weird-algorithm.cpp)
-- Missing Number
+2. Missing Number
 [[source]](https://cses.fi/problemset/task/1083)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/missing-number.cpp)
-- Repetitions
+3. Repetitions
 [[source]](https://cses.fi/problemset/task/1069)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/repetitions.cpp)
-- Increasing Array
+4. Increasing Array
 [[source]](https://cses.fi/problemset/task/1094)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/increasing-array.cpp)
-- Permutations
+5. Permutations
 [[source]](https://cses.fi/problemset/task/1070)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/permutations-v2.cpp)
-- Number Spiral
+6. Number Spiral
 [[source]](https://cses.fi/problemset/task/1071)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/number-spiral.cpp)
-- Two Knights
+7. Two Knights
 [[source]](https://cses.fi/problemset/task/1072)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/two-knights.cpp)
-- Two Sets
+8. Two Sets
 [[source]](https://cses.fi/problemset/task/1092)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/two-sets.cpp)
-- Bit Strings
+9. Bit Strings
 [[source]](https://cses.fi/problemset/task/1617)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/bit-strings.cpp)
-- Trailing Zeros
+10. Trailing Zeros
 [[source]](https://cses.fi/problemset/task/1618)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/trailing-zeros.cpp)
-- Coin Piles
+11. Coin Piles
 [[source]](https://cses.fi/problemset/task/1754)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/coin-piles.cpp)
-- Palindrome Reorder
+12. Palindrome Reorder
 [[source]](https://cses.fi/problemset/task/1755)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/palindrome-reorder.cpp)
-- Gray Code
+13. Gray Code
 [[source]](https://cses.fi/problemset/task/2205)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/gray-code.cpp)
-- Tower of Hanoi
+14. Tower of Hanoi
 [[source]](https://cses.fi/problemset/task/2165)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/tower-of-hanoi.cpp)
-- Creating Strings
+15. Creating Strings
 [[source]](https://cses.fi/problemset/task/1622)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/creating-strings.cpp)
-- Apple Division
+16. Apple Division
 [[source]](https://cses.fi/problemset/task/1623)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/apple-division.cpp)
-- Chessboard and Queens
+17. Chessboard and Queens
 [[source]](https://cses.fi/problemset/task/1624)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/chessboard-and-queens.cpp)
-- Digit Queries
+18. Digit Queries
 [[source]](https://cses.fi/problemset/task/2431)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/digit-queries.cpp)
-- Grid Paths
+19. Grid Paths
 [[source]](https://cses.fi/problemset/task/1625)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/grid-paths.cpp)
 
 ## Sorting and Searching
 
-- Distinct Numbers
+1. Distinct Numbers
 [[source]](https://cses.fi/problemset/task/1621)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/distinct-numbers.cpp)
-- Apartments
+2. Apartments
 [[source]](https://cses.fi/problemset/task/1084)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/apartments.cpp)
-- Ferris Wheel
+3. Ferris Wheel
 [[source]](https://cses.fi/problemset/task/1090)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/ferris-wheel.cpp)
-- Concert Tickets
+4. Concert Tickets
 [[source]](https://cses.fi/problemset/task/1091)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/concert-tickets.cpp)
-- Restaurant Customers
+5. Restaurant Customers
 [[source]](https://cses.fi/problemset/task/1619)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/restaurant-customers.cpp)
-- Movie Festival
+6. Movie Festival
 [[source]](https://cses.fi/problemset/task/1629)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/movie-festival.cpp)
-- Sum of Two Values
+7. Sum of Two Values
 [[source]](https://cses.fi/problemset/task/1640)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-two-values.cpp)
-- Maximum Subarray Sum
+8. Maximum Subarray Sum
 [[source]](https://cses.fi/problemset/task/1643)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/maximum-subarray-sum.cpp)
-- Stick Lengths
+9. Stick Lengths
 [[source]](https://cses.fi/problemset/task/1074)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/stick-lengths.cpp)
-- Missing Coin Sum
+10. Missing Coin Sum
 [[source]](https://cses.fi/problemset/task/2183)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/missing-coin-sum.cpp)
-- Collecting Numbers
+11. Collecting Numbers
 [[source]](https://cses.fi/problemset/task/2216)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/collecting-numbers.cpp)
-- Collecting Numbers II
+12. Collecting Numbers II
 [[source]](https://cses.fi/problemset/task/2217)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/collecting-numbers-ii.cpp)
-- Playlist
+13. Playlist
 [[source]](https://cses.fi/problemset/task/1141)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/playlist.cpp)
-- Towers
+14. Towers
 [[source]](https://cses.fi/problemset/task/1073)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/towers.cpp)
-- Traffic Lights
+15. Traffic Lights
 [[source]](https://cses.fi/problemset/task/1163)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/traffic-lights.cpp)
-- Josephus Problem I
+16. Josephus Problem I
 [[source]](https://cses.fi/problemset/task/2162)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/josephus-problem-i.cpp)
-- Josephus Problem II
+17. Josephus Problem II
 [[source]](https://cses.fi/problemset/task/2163)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/josephus-problem-ii.cpp)
-- Nested Ranges Check
+18. Nested Ranges Check
 [[source]](https://cses.fi/problemset/task/2168)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nested-ranges-check.cpp)
-- Nested Ranges Count
+19. Nested Ranges Count
 [[source]](https://cses.fi/problemset/task/2169)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nested-ranges-count.cpp)
-- Room Allocation
+20. Room Allocation
 [[source]](https://cses.fi/problemset/task/1164)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/room-allocation.cpp)
-- Factory Machines
+22. Factory Machines
 [[source]](https://cses.fi/problemset/task/1620)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/factory-machines.cpp)
-- Tasks and Deadlines
+23. Tasks and Deadlines
 [[source]](https://cses.fi/problemset/task/1630)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/tasks-and-deadlines.cpp)
-- Reading Books
+24. Reading Books
 [[source]](https://cses.fi/problemset/task/1631)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/reading-books.cpp)
-- Sum of Three Values
+25. Sum of Three Values
 [[source]](https://cses.fi/problemset/task/1641)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-three-values.cpp)
-- Sum of Four Values
+26. Sum of Four Values
 [[source]](https://cses.fi/problemset/task/1642)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-four-values.cpp)
 
