@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 int main() {
   int n;
   long long x;
@@ -12,16 +12,24 @@ int main() {
     a[i] = {num, i};
   }
   sort(a.begin(), a.end());
-  long long sum = 0;
-  for (int i = n - 4; i < n; i++) {
-    sum += a[i].first;
+  long long min_sum = 0;
+  for (int i = 0; i < 4; i++) {
+    min_sum += a[i].first;
   }
-  if (sum < x) {
+  if (min_sum > x) {
+    cout << "IMPOSSIBLE" << "\n";
+    return 0;
+  }
+  long long max_sum = 0;
+  for (int i = n - 4; i < n; i++) {
+    max_sum += a[i].first;
+  }
+  if (max_sum < x) {
     cout << "IMPOSSIBLE" << "\n";
     return 0;
   }
   a.push_back({0, -1});
-  unordered_map<long long, int> nxt;
+  map<long long, int> nxt;
   for (int i = 0; i < n; i++) {
     if (a[i].first != a[i + 1].first) {
       nxt[a[i].first] = i + 1;
