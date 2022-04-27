@@ -13,16 +13,11 @@ int main() {
   sort(a.begin(), a.end());
   bool found = false;
   for (int i = 0; !found and i < n - 3; i++) {
-    int ti = x - a[i].first;
-    pair<int, int> pi = {ti, INT_MAX};
-    auto upper = upper_bound(a.begin() + i, a.end(), pi);
-    int max_j = upper - a.begin();
-    for (int j = i + 1; !found and j < max_j; j++) {
-      int tj = ti - a[j].first;
-      pair<int, int> pj = {tj, INT_MAX};
-      auto upper = upper_bound(a.begin() + j, a.end(), pj);
-      auto max_k = upper - a.begin();
-      for (int k = j + 1; !found and k < max_k; k++) {
+    for (int j = i + 1; !found and j < n - 2; j++) {
+      for (int k = j + 1; !found and k < n - 1; k++) {
+        if (k > j + 1 and a[k].first == a[k - 1].first) {
+          continue;
+        }
         int target = x - a[i].first - a[j].first - a[k].first;
         pair<int, int> p = {target, INT_MIN};
         auto lower = lower_bound(a.begin() + k + 1, a.end(), p);
