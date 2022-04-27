@@ -134,5 +134,8 @@
 - Sum of Three Values
 [[source]](https://cses.fi/problemset/task/1641)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-three-values.cpp)
+- Sum of Four Values
+[[source]](https://cses.fi/problemset/task/1642)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-four-values.cpp)
 
-Problems solved: **43**
+Problems solved: **44**
