@@ -13,7 +13,13 @@ int main() {
   sort(a.begin(), a.end());
   bool found = false;
   for (int i = 0; !found and i < n - 3; i++) {
+    if (i > 0 and a[i].first == a[i - 1].first) {
+      continue;
+    }
     for (int j = i + 1; !found and j < n - 2; j++) {
+      if (j > i + 1 and a[j].first == a[j - 1].first) {
+        continue;
+      }
       for (int k = j + 1; !found and k < n - 1; k++) {
         if (k > j + 1 and a[k].first == a[k - 1].first) {
           continue;
