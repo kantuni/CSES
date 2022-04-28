@@ -3,6 +3,10 @@ using namespace std;
 
 int n;
 vector<int> a;
+map<pair<int, int>, int> memo;
+
+int rmq(int l, int r);
+int remember(int l, int r);
 
 // range min query
 int rmq(int l, int r) {
@@ -13,7 +17,15 @@ int rmq(int l, int r) {
     return a[l];
   }
   int m = (l + r) / 2;
-  return min(rmq(l, m), rmq(m + 1, r));
+  return min(remember(l, m), remember(m + 1, r));
+}
+
+int remember(int l, int r) {
+  pair<int, int> p = {l, r};
+  if (memo.count(p) == 0) {
+    memo[p] = rmq(l, r);
+  }
+  return memo[p];
 }
 
 int main() {
