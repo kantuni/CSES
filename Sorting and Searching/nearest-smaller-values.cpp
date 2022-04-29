@@ -1,67 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n;
-vector<int> a;
-map<pair<int, int>, int> memo;
-
-int rmq(int l, int r);
-int remember(int l, int r);
-
-// range min query
-int rmq(int l, int r) {
-  if (l < 0 or r > n - 1) {
-    return 0;
-  }
-  if (l == r) {
-    return a[l];
-  }
-  int m = (l + r) / 2;
-  return min(remember(l, m), remember(m + 1, r));
-}
-
-int remember(int l, int r) {
-  pair<int, int> p = {l, r};
-  if (memo.count(p) == 0) {
-    memo[p] = rmq(l, r);
-  }
-  return memo[p];
-}
+template <typename T>
+using min_heap = priority_queue<T, vector<T>, greater<T>>;
 
 int main() {
+  int n;
   cin >> n;
-  a.assign(n, 0);
+  vector<int> a(n);
   for (int i = 0; i < n; i++) {
     cin >> a[i];
   }
+  min_heap<pair<int, int>> pq;
   for (int i = 0; i < n; i++) {
-    int mn = a[i];
-    int r = i, l = r - 1;
-    for (int p = 0; true; p++) {
-      l = max(0, r - (1 << p));
-      int res = rmq(l, r);
-      if (res < mn) {
-        mn = res;
-        break;
-      }
-      if (l == 0) {
-        break;
-      }
-    }
-    // no value before a[i] is less than a[i]
-    if (mn == a[i]) {
+    pq.push({a[i], i});
+    if (pq.empty() or pq.top().first >= a[i]) {
       cout << 0 << " ";
       continue;
     }
-    while (l < r) {
-      int m = (l + r) / 2;
-      if (rmq(l, m) > mn) {
-        l = m + 1;
-      } else {
-        r = m - 1;
+    vector<pair<int, int>> tmp;
+    while (!pq.empty()) {
+      auto [num, index] = pq.top();
+      if (num >= a[i]) {
+        break;
       }
+      pq.pop();
+      tmp.push_back({num, index});
     }
-    cout << l + 1 << " ";
+    int pos = -1;
+    for (auto [num, index]: tmp) {
+      pos = max(pos, index);
+      pq.push({num, index});
+    }
+    cout << pos + 1 << " ";
   }
   cout << "\n";
   return 0;
