@@ -140,5 +140,8 @@
 27. Nearest Smaller Values
 [[source]](https://cses.fi/problemset/task/1645)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nearest-smaller-values.cpp)
+28. Subarray Sums I
+[[source]](https://cses.fi/problemset/task/1660)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-sums-i.cpp)
 
-Problems solved: **45**
+Problems solved: **46**
