@@ -2,7 +2,7 @@
 using namespace std;
 
 template <typename T>
-using max_heap = priority_queue<T, vector<T>, greater<T>>;
+using min_heap = priority_queue<T, vector<T>, greater<T>>;
 
 int main() {
   int n;
@@ -16,14 +16,14 @@ int main() {
   }
   sort(events.begin(), events.end());
   // right, key
-  max_heap<pair<int, int>> pq;
+  min_heap<pair<int, int>> pq;
   pq.push({0, 1});
   vector<int> ans(n);
   int nxt = 2;
   for (auto [l, r, i]: events) {
-    auto [mxr, k] = pq.top();
+    auto [mnr, k] = pq.top();
     int key = -1;
-    if (l > mxr) {
+    if (l > mnr) {
       key = k;
       pq.pop();
     } else {
