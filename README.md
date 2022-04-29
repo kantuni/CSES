@@ -137,5 +137,8 @@
 26. Sum of Four Values
 [[source]](https://cses.fi/problemset/task/1642)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sum-of-four-values.cpp)
+27. Nearest Smaller Values
+[[source]](https://cses.fi/problemset/task/1645)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/nearest-smaller-values.cpp)
 
-Problems solved: **44**
+Problems solved: **45**
