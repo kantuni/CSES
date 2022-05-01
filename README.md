@@ -143,5 +143,8 @@
 28. Subarray Sums I
 [[source]](https://cses.fi/problemset/task/1660)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-sums-i.cpp)
+29. Subarray Sums II
+[[source]](https://cses.fi/problemset/task/1661)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-sums-ii.cpp)
 
-Problems solved: **46**
+Problems solved: **47**
