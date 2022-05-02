@@ -25,7 +25,7 @@ int main() {
     for (auto j: js) {
       auto upper = upper_bound(is.begin(), is.end(), j - 1);
       int cnt = upper - is.begin();
-      ans += cnt; 
+      ans += cnt;
     }
   }
   cout << ans << "\n";
