@@ -23,6 +23,7 @@ int main() {
     }
     vector<int> is = memo[ps2];
     for (auto j: js) {
+      // Only count valid intervals, i.e filter out [4, 2] intervals.
       auto upper = upper_bound(is.begin(), is.end(), j - 1);
       int cnt = upper - is.begin();
       ans += cnt;
