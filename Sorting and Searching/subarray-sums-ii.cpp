@@ -24,10 +24,6 @@ int main() {
     vector<int> is = memo[ps2];
     for (auto j: js) {
       auto upper = upper_bound(is.begin(), is.end(), j - 1);
-      // We want to find the number of indices that are < j - 1.
-      // Why? Because in the naive solution we would have counted
-      // all intervals such that i + 1 < j (+1 to find the actual
-      // starting index - not the prefix sum index.
       int cnt = upper - is.begin();
       ans += cnt; 
     }
