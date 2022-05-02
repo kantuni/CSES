@@ -146,5 +146,8 @@
 29. Subarray Sums II
 [[source]](https://cses.fi/problemset/task/1661)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-sums-ii.cpp)
+30. Subarray Divisibility
+[[source]](https://cses.fi/problemset/task/1662)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-divisibility.cpp)
 
-Problems solved: **47**
+Problems solved: **48**
