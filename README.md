@@ -149,5 +149,9 @@
 30. Subarray Divisibility
 [[source]](https://cses.fi/problemset/task/1662)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-divisibility.cpp)
+31. Subarray Distinct Values
+[[source]](https://cses.fi/problemset/task/2428)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-distinct-values.cpp)
 
-Problems solved: **48**
+
+Problems solved: **49**
