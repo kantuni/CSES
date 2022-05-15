@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 int n, k;
 vector<long long> a;
-
+ 
 bool works(long long limit) {
   int cnt = 1;
   long long sum = 0;
@@ -16,13 +16,9 @@ bool works(long long limit) {
   }
   // NOTE: The crucial part is <= (not ==), because if we can make k - 1 parts
   // with max sum == limit, we can definitely make k parts.
-<<<<<<< Updated upstream
-  return p.size() <= k;
-=======
   return cnt <= k;
->>>>>>> Stashed changes
 }
-
+ 
 int main() {
   cin >> n >> k;
   a.assign(n, 0);
@@ -31,11 +27,7 @@ int main() {
     cin >> a[i];
     mx = max(mx, a[i]);
   }
-<<<<<<< Updated upstream
-  long long low = 1;
-=======
   long long low = mx;
->>>>>>> Stashed changes
   // NOTE: 0LL instead of 0.
   // Otherwise, you'll accumulate everything into an int.
   long long high = accumulate(a.begin(), a.end(), 0LL);
