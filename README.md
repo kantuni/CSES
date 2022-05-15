@@ -152,6 +152,8 @@
 31. Subarray Distinct Values
 [[source]](https://cses.fi/problemset/task/2428)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/subarray-distinct-values.cpp)
+32. Array Division
+[[source]](https://cses.fi/problemset/task/1085)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/array-division.cpp)
 
-
-Problems solved: **49**
+Problems solved: **50**
