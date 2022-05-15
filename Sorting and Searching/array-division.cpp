@@ -5,37 +5,37 @@ int n, k;
 vector<long long> a;
 
 bool works(long long limit) {
-  vector<long long> p;
+  int cnt = 1;
   long long sum = 0;
   for (int i = 0; i < n; i++) {
-    if (a[i] > limit) {
-      return false;
+    if (sum + a[i] > limit) {
+      cnt++;
+      sum = 0;
     }
-    if (sum + a[i] <= limit) {
-      sum += a[i];
-    } else {
-      p.push_back(sum);
-      sum = a[i];
-    }
-  }
-  if (sum > limit) {
-    return false;
-  }
-  if (sum > 0) {
-    p.push_back(sum);
+    sum += a[i];
   }
   // NOTE: The crucial part is <= (not ==), because if we can make k - 1 parts
   // with max sum == limit, we can definitely make k parts.
+<<<<<<< Updated upstream
   return p.size() <= k;
+=======
+  return cnt <= k;
+>>>>>>> Stashed changes
 }
 
 int main() {
   cin >> n >> k;
   a.assign(n, 0);
+  long long mx = 0;
   for (int i = 0; i < n; i++) {
     cin >> a[i];
+    mx = max(mx, a[i]);
   }
+<<<<<<< Updated upstream
   long long low = 1;
+=======
+  long long low = mx;
+>>>>>>> Stashed changes
   // NOTE: 0LL instead of 0.
   // Otherwise, you'll accumulate everything into an int.
   long long high = accumulate(a.begin(), a.end(), 0LL);
