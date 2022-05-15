@@ -29,7 +29,7 @@ int main() {
   }
   long long low = mx;
   // NOTE: 0LL instead of 0.
-  // Otherwise, you'll accumulate everything into an int.
+  // Otherwise, it'll accumulate everything into an int.
   long long high = accumulate(a.begin(), a.end(), 0LL);
   while (low <= high) {
     long long mid = low + (high - low) / 2;
