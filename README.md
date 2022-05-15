@@ -155,5 +155,9 @@
 32. Array Division
 [[source]](https://cses.fi/problemset/task/1085)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/array-division.cpp)
+33. Sliding Median
+[[source]](https://cses.fi/problemset/task/1076)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sliding-median.cpp)
 
-Problems solved: **50**
+
+Problems solved: **51**
