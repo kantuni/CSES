@@ -24,7 +24,7 @@ bool works(long long limit) {
   if (sum > 0) {
     p.push_back(sum);
   }
-  // NOTE: The crucial part is <= (not =), because if we can make k parts
+  // NOTE: The crucial part is <= (not ==), because if we can make k parts
   // with max sum = limit, we can definitely make k - 1 parts.
   return p.size() <= k;
 }
