@@ -36,7 +36,7 @@ int main() {
     cin >> a[i];
   }
   long long low = 1;
-  // NOTE: LL is crucial at the end of the 0.
+  // NOTE: 0LL instead of 0.
   // Otherwise, you'll accumulate everything into an int.
   long long high = accumulate(a.begin(), a.end(), 0LL);
   while (low <= high) {
