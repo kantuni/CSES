@@ -30,6 +30,7 @@ int main() {
   while (j <= n) {
     auto m = *ls.rbegin();
     long long c = cost(m.first);
+    // if k is even - try both medians
     if (k % 2 == 0) {
       auto ma = *rs.begin();
       long long ca = cost(ma.first);
