@@ -13,6 +13,7 @@ int main() {
   for (int i = 0; i < k; i++) {
     ls.insert({a[i], i});
   }
+  // rebalance (ls -> rs)
   while (ls.size() > (k - 1) / 2 + 1) {
     auto lmx = *ls.rbegin();
     rs.insert(lmx);
