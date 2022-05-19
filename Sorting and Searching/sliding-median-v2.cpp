@@ -20,24 +20,21 @@ int main() {
   }
   int i = 0, j = k;
   while (j <= n) {
-    auto [median, index] = *ls.rbegin();
-    // Create a copy of the median pair as the original one
-    // might already be erased.
-    pair<int, int> m = {median, index};
-    cout << median << " ";
-    // erase a[i]
-    pair<int, int> ai = {a[i], i};
-    if (ls.count(ai) > 0) {
-      ls.erase(ai);
-    } else {
-      rs.erase(ai);
-    }
+    auto m = *ls.rbegin();
+    cout << m.first << " ";
     // insert a[j]
     pair<int, int> aj = {a[j], j};
     if (aj > m) {
       rs.insert(aj);
     } else {
       ls.insert(aj);
+    }
+    // erase a[i]
+    pair<int, int> ai = {a[i], i};
+    if (ls.count(ai) > 0) {
+      ls.erase(ai);
+    } else {
+      rs.erase(ai);
     }
     // rebalance (ls -> rs)
     while (ls.size() > (k - 1) / 2 + 1) {
