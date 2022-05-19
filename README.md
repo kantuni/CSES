@@ -158,6 +158,9 @@
 33. Sliding Median
 [[source]](https://cses.fi/problemset/task/1076)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sliding-median.cpp)
+34. Sliding Cost
+[[source]](https://cses.fi/problemset/task/1077)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sliding-cost.cpp)
 
 
-Problems solved: **51**
+Problems solved: **52**
