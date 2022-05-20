@@ -28,7 +28,7 @@ int main() {
     mx = max(mx, a[i]);
   }
   long long low = mx;
-  // NOTE: 0LL instead of 0.
+  // IMPORTANT: 0LL instead of 0.
   // Otherwise, it'll accumulate everything into an int.
   long long high = accumulate(a.begin(), a.end(), 0LL);
   while (low <= high) {
