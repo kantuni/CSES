@@ -14,7 +14,7 @@ int main() {
     ls.insert({a[i], i});
   }
   // rebalance (ls -> rs)
-  while (ls.size() > (k - 1) / 2 + 1) {
+  while (ls.size() > k / 2 + k % 2) {
     auto lmx = *ls.rbegin();
     rs.insert(lmx);
     ls.erase(lmx);
@@ -38,13 +38,13 @@ int main() {
       rs.erase(ai);
     }
     // rebalance (ls -> rs)
-    while (ls.size() > (k - 1) / 2 + 1) {
+    while (ls.size() > k / 2 + k % 2) {
       auto lmx = *ls.rbegin();
       rs.insert(lmx);
       ls.erase(lmx);
     }
     // rebalance (rs -> ls)
-    while (rs.size() > k / 2) {
+    while (ls.size() < k / 2 + k % 2) {
       auto rmn = *rs.begin();
       ls.insert(rmn);
       rs.erase(rmn);
