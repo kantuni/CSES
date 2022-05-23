@@ -161,6 +161,8 @@
 34. Sliding Cost
 [[source]](https://cses.fi/problemset/task/1077)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/sliding-cost.cpp)
+35. Movie Festival II
+[[source]](https://cses.fi/problemset/task/1632)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/movie-festival-ii.cpp)
 
-
-Problems solved: **52**
+Problems solved: **53**
