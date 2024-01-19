@@ -18,22 +18,22 @@ int main() {
   for (int i = 0; i < n; i++) {
     int a, b;
     cin >> a >> b;
-    ms[i] = {a, b};
+    ms[i] = { a, b };
   }
   sort(ms.begin(), ms.end(), cmp);
   int ans = 0;
   for (int i = 0; i < n; i++) {
     auto [from, to] = ms[i];
-    auto lower = es.lower_bound({-from, INT_MIN});
+    auto lower = es.lower_bound({ -from, INT_MIN });
     if (lower == es.end()) {
       if (k > 0) {
-        es.insert({-to, es.size()});
+        es.insert({ -to, es.size() });
         ans++;
         k--;
       }
       continue;
     }
-    es.insert({-to, lower->second});
+    es.insert({ -to, lower->second });
     es.erase(lower);
     ans++;
   }
