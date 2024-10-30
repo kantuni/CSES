@@ -10,6 +10,7 @@ int main() {
     long long num;
     cin >> num;
     ps += num;
+    // (ps + n) % n won't work as the sum can overflow.
     long long rem = ps % n;
     if (rem < 0) {
       rem += n;
