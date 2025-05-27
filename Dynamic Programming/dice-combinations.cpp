@@ -2,9 +2,7 @@
 using namespace std;
 
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  const int P = 1e9 + 7; 
+  const int P = 1e9 + 7;
   int n;
   cin >> n;
   vector<int> dp(n + 1);
