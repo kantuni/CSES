@@ -173,5 +173,8 @@
 1. Dice Combinations
 [[source]](https://cses.fi/problemset/task/1633)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/dice-combinations.cpp)
+2. Minimizing Coins
+[[source]](https://cses.fi/problemset/task/1634)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/minimizing-coins.cpp)
 
-Problems solved: **55**
+Problems solved: **56**
