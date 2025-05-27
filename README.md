@@ -53,10 +53,13 @@
 17. Chessboard and Queens
 [[source]](https://cses.fi/problemset/task/1624)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/chessboard-and-queens.cpp)
-18. Digit Queries
+18. Raab Game I
+[[source]](https://cses.fi/problemset/task/3399)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/raab-game-i.cpp)
+20. Digit Queries
 [[source]](https://cses.fi/problemset/task/2431)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/digit-queries.cpp)
-19. Grid Paths
+21. Grid Paths
 [[source]](https://cses.fi/problemset/task/1625)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Introductory%20Problems/grid-paths.cpp)
 
@@ -165,4 +168,4 @@
 [[source]](https://cses.fi/problemset/task/1632)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/movie-festival-ii.cpp)
 
-Problems solved: **53**
+Problems solved: **54**
