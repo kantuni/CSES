@@ -1,18 +1,18 @@
 #include <bits/stdc++.h>
-#define INF 1e9
 using namespace std;
 
 int main() {
+  const int INF = 1e9;
   int n, x;
   cin >> n >> x;
   vector<int> c(n);
   for (int i = 0; i < n; i++) {
     cin >> c[i];
   }
-  vector<int> dp(x + 1, INF);
+  vector<int> memo(x + 1, INF);
   for (int i = 0; i < n; i++) {
     if (c[i] <= x) {
-      dp[c[i]] = 1;
+      memo[c[i]] = 1;
     }
   }
   for (int i = 0; i <= x; i++) {
@@ -20,10 +20,10 @@ int main() {
       if (i - c[j] < 0) {
         continue;
       }
-      dp[i] = min(dp[i], 1 + dp[i - c[j]]);
+      memo[i] = min(memo[i], 1 + memo[i - c[j]]);
     }
   }
-  int ans = dp[x] == INF ? -1 : dp[x];
+  int ans = memo[x] == INF ? -1 : memo[x];
   cout << ans << "\n";
   return 0;
 }
