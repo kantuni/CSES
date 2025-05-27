@@ -168,4 +168,10 @@
 [[source]](https://cses.fi/problemset/task/1632)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Sorting%20and%20Searching/movie-festival-ii.cpp)
 
-Problems solved: **54**
+## Dynamic programming
+
+1. Dice Combinations
+[[source]](https://cses.fi/problemset/task/1633)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/dice-combinations.cpp)
+
+Problems solved: **55**
