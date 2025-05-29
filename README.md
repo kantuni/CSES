@@ -176,8 +176,11 @@
 2. Minimizing Coins
 [[source]](https://cses.fi/problemset/task/1634)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/minimizing-coins.cpp)
-2. Coin Combinations I
+3. Coin Combinations I
 [[source]](https://cses.fi/problemset/task/1635)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/coin-combinations-i.cpp)
+5. Removing Digits
+[[source]](https://cses.fi/problemset/task/1637)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/removing-digits.cpp)
 
-Problems solved: **57**
+Problems solved: **58**
