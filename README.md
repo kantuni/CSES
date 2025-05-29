@@ -182,5 +182,8 @@
 5. Removing Digits
 [[source]](https://cses.fi/problemset/task/1637)
 [[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/removing-digits.cpp)
+6. Grid Paths I
+[[source]](https://cses.fi/problemset/task/1638)
+[[solution]](https://github.com/kantuni/CSES/blob/main/Dynamic%20Programming/grid-paths-i.cpp)
 
-Problems solved: **58**
+Problems solved: **59**
