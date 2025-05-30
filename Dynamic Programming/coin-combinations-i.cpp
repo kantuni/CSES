@@ -17,7 +17,8 @@ int main() {
       if (i - c[j] < 0) {
         continue;
       }
-      memo[i] = (memo[i] + memo[i - c[j]] % P) % P;
+      memo[i] += memo[i - c[j]];
+      memo[i] %= P;
     }
   }
   cout << memo[x] << "\n";
