@@ -15,7 +15,8 @@ int main() {
   memo[6] = 32;
   for (int i = 7; i <= n; i++) {
     for (int j = 1; j < 7; j++) {
-      memo[i] = (memo[i] + memo[i - j] % P) % P;
+      memo[i] += memo[i - j];
+      memo[i] %= P;
     }
   }
   cout << memo[n] << "\n";
